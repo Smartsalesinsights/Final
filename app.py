@@ -5,7 +5,7 @@ from openai import OpenAI
 st.title("📊 Excel Sales Analyzer with AI")
 
 # Load OpenAI API key from Streamlit secrets
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+client = OpenAI(api_key=st.secrets["sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx"])
 
 # Upload Excel file
 uploaded_file = st.file_uploader("Upload your Excel file", type=["xlsx", "xls"])
