@@ -4,7 +4,7 @@ from openai import OpenAI
 
 st.title("📊 Excel Sales Analyzer with AI")
 
-client = OpenAI api_key="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+client = OpenAI.api_key="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 # Upload Excel file
 uploaded_file = st.file_uploader("Upload your Excel file", type=["xlsx", "xls"])
